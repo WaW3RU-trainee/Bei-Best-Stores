@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bei Best Stores</title>
+    <link rel="stylesheet" href="/home/iantrainee/app/style.css">
+</head>
+<body>
+    <header>
+        <img src="background.jpg" alt="Background" class="background-header-image">
+        <h1>Bei Best Stores</h1>
+        <div class="cart-icon-container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2 14h10l2-14h4"></path>
+            </svg>
+            <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="product-grid" id="product-grid"></div>
+
+        <div class="cart">
+            <h2>Your Cart</h2>
+            <ul class="cart-items" id="cart-items"></ul>
+            <div class="cart-total" id="cart-total">Total: Ksh 0</div>
+            <button class="button" id="checkout">Checkout</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
